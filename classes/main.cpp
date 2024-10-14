@@ -98,7 +98,7 @@ int main() {
 	Fraction f2(1, 2);
 
 	f1.print_fraction();
-	
+
 	cout << "f1 == f2: " << (f1 == f2) << endl;
 	cout << "f1 + f2: ";
 	Fraction f3 = f1 + &f2;
